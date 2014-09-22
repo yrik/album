@@ -1,0 +1,91 @@
+html{
+ 					color: red;
+ 				}
+ 				body{
+                    display: block;
+ 					color: #3e5154;
+ 					background:background: -webkit-linear-gradient(silver, white); /* For Safari */
+background: -o-linear-gradient(silver, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(silver, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(silver, white); /* Standard syntax (must be last) */
+                    margin: 0px;
+ 				}
+                #menu{
+                    display: inline-block;
+                    background:background: -webkit-linear-gradient(gray, black); /* For Safari */
+background: -o-linear-gradient(gray, black); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(gray, black); /* For Firefox 3.6 to 15 */
+background: linear-gradient(gray, black); /* Standard syntax (must be last) */
+                    width: 100%;
+                    padding: 20px; 
+                    text-align: center;
+                }
+
+                 #menu a{
+                     color: white;
+                     padding:4px; 
+                 }
+
+ 				img{
+ 					display: block;
+ 					margin-top: 25px;
+ 					margin-left: auto; 
+ 					margin-right: auto;
+ 				} 
+ 				h1{
+ 				 	text-align: center;
+ 					font-size: 45px;
+                    font-weight: lighter;
+                    font-weight: Arial;
+                    line-height: 45px;
+ 				}
+ 				p{
+ 					color: #3e5154;
+ 					text-align: center;
+ 					font-size: 17px;
+                    font-family: Arial;
+ 				}
+ 				form { 
+ 				 	display: block;
+ 				 	margin-left: auto; 
+ 					margin-right: auto;
+ 					width: 350px;
+ 					padding-left: 40px; 
+                    padding-right: 40px;
+                    padding-top:30px;
+                    padding-bottom:35px;  
+ 					background: #d9f2f9;
+                    border-radius: 3px;
+ 					}
+                 .hat{
+                    width: 350px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    border: 0;
+                    padding-left: 7px;
+                    padding-right: 7px;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    border-radius: 3px;
+                    font-size: 15px;
+                }
+                form 
+                 #send_btn{
+                    margin-right: auto;
+                    margin-left: auto;
+                    width: 350px;
+                    padding: 23px;
+                    background:background: -webkit-linear-gradient(gray, black); /* For Safari */
+background: -o-linear-gradient(#ffa944,#fd5309); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#ffa944,#fd5309); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#ffa944,#fd5309); /* Standard syntax (must be last) */
+                    font-size: 17px;
+                    text-shadow: 1px 1px #ffa45d;
+                }
+                #name{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                #phone{
+                    margin-bottom: 28px;
+                }
