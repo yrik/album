@@ -39,6 +39,10 @@
 	[1. GLOBAL STYLE]
 	==================
 */
+html{
+	position :relative;
+	min-height: 100%;
+}
 body{	
 	margin: 0;
 	padding:0;
@@ -1583,8 +1587,9 @@ input[type="color"]:focus,
 	background-color: #0f101a;
 	color: #ccc;
 	font-size: 13px;
-	position: fixed;  
-	bottom: 0px;
+	position: absolute;
+	bottom: 0;
+	height: 75px;
 }
 
 #copyright .social-icon > li > a{
