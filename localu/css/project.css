@@ -295,11 +295,10 @@ input[type="color"]:focus,
 }
 
 .navbar-transparent .navbar-nav > li > a{
-	color: #000000;
+	color: #fff;
 	font-size: 20px;
 	padding: 35px 25px 30px;
-	font-family: TNR;
-	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover{
@@ -1586,7 +1585,7 @@ input[type="color"]:focus,
 #copyright{
 	width: 100%;
 	padding: 15px 0 5px;
-	background-color: #7e7c7b;
+	background-color: #0f101a;
 	color: #ccc;
 	font-size: 13px;
 	position: absolute;
@@ -1658,5 +1657,5 @@ input[type="color"]:focus,
 }
 
 #copyright .row{
-	background-color: #7e7c7b;
+	background-color: #0f101a;
 }
