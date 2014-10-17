@@ -1661,3 +1661,7 @@ input[type="color"]:focus,
 #copyright .row{
 	background-color: rgb(200, 200, 200);
 }
+
+#navbar-right{
+	margin-right: 100px;
+}
