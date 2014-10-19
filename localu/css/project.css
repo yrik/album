@@ -1677,3 +1677,20 @@ input[type="color"]:focus,
 	margin-left: 100px;
 	margin-top: 70px;
 }
+
+.background{
+    width: 100%;
+}
+#img{
+	width:100%;
+}
+#overlay{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000; /*чорний колір*/
+  background: rgba(0,0,0,.2); /*задаємо прозорість чорному кольору*/
+  z-index: 10;
+}
