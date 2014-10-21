@@ -1585,7 +1585,6 @@ input[type="color"]:focus,
 */
 #copyright{
 	width: 100%;
-	padding: 9px 0 5px;
 	background-color: rgb(200, 200, 200);
 	color: black;
 	font-size: 13px;
@@ -1648,7 +1647,7 @@ input[type="color"]:focus,
 
 #copyright .copy-left{
 	text-align: left;
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-left: 0px;
 	padding-left: 0px;	
 }
@@ -1681,4 +1680,12 @@ input[type="color"]:focus,
 #main-page{
 	background-image: url("../img/landing4.jpg");
 
+}
+
+@media (max-width: 770px){
+    #logo{
+        height: 42px;
+    }
+  
+   
 }
