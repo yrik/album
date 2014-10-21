@@ -1671,12 +1671,12 @@ input[type="color"]:focus,
 	width:auto;
 }
 #mainblock{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	width: 40%;
-	border: 2px solid;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	width: 43%;
+	border: 3px solid;
 	margin-left: 100px;
-	margin-top: 70px;
+	margin-top: 75px;
 }
 #main-page{
 	background-image: url("../img/landing4.jpg");
