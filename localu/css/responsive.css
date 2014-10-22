@@ -43,13 +43,18 @@
 }
 
 @media screen and (max-width: 767px){
+
+    #logo{
+        height: 42px;
+    }
+
 	/* navbar */
 	.navbar-default .navbar-toggle{
 		margin-top: 8px;
 	}
 
 	.navbar-default .navbar-brand{
-		padding-top: 15px;
+		padding-top: 5px;
 		padding-bottom: 13px;
 	}
 

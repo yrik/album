@@ -1677,15 +1677,11 @@ input[type="color"]:focus,
 	margin-left: 100px;
 	margin-top: 75px;
 }
+
 #main-page{
 	background-image: url("../img/landing4.jpg");
-
 }
 
-@media (max-width: 770px){
-    #logo{
-        height: 42px;
-    }
-  
-   
+.logo-small{
+	height: 50px;
 }
