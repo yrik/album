@@ -1685,3 +1685,12 @@ input[type="color"]:focus,
 .logo-small{
 	height: 50px;
 }
+
+#footer-links{
+	margin-top: 17px;
+}
+
+#icon{
+	margin-top: 5px;	
+	margin-bottom: -5px;
+}
