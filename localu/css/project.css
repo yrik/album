@@ -1697,4 +1697,5 @@ input[type="color"]:focus,
 }
 #upper-container{
 margin-left: 50px;
+width: auto;
 }
