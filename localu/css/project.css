@@ -1591,7 +1591,6 @@ input[type="color"]:focus,
 	position: absolute;
 	bottom: 0;
 	height: 55px;
-	font-style: italic;
 }
 
 #copyright .social-icon > li > a{
