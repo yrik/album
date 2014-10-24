@@ -299,7 +299,7 @@ input[type="color"]:focus,
 	color: #000;
 	font-size: 16px;
 	padding: 35px 35px 30px;
-	font-family: 'Raleway', sans-serif;
+	font-family: Noto Serif, serif;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover{
