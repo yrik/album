@@ -1,0 +1,20 @@
+body{
+	background: #f2f2f2;
+	min-width: 1000px !important;
+}
+.photos-holder{
+	background: white;
+	margin: 10px 0px;
+}
+.link{
+	background: #d9d9d9;
+	padding: 10px;
+}
+.filters, .content{
+	border: 1px solid #bfbfbf;
+	margin: 20px auto;
+}
+.header{
+	border-bottom: 1px solid #bfbfbf;
+	padding: 10px 0px;
+}
