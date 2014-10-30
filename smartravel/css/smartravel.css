@@ -9,6 +9,7 @@ body{
 .link{
 	background: #d9d9d9;
 	padding: 10px;
+	border-bottom: 1px solid #bfbfbf;
 }
 .filters, .content{
 	border: 1px solid #bfbfbf;
@@ -16,5 +17,5 @@ body{
 }
 .header{
 	border-bottom: 1px solid #bfbfbf;
-	padding: 10px 0px;
+	padding: 20px 0px 10px;
 }

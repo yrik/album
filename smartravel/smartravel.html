@@ -6,51 +6,108 @@
 		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 		<link href="./css/smartravel.css" rel="stylesheet">
 
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	<body>
 		<!-- begin:header -->
 		 <div class="container header">
 			<div class="row">
 				<div class="col-md-3 ">
-					<a href="#" class="btn btn-lg btn-warning" role="button">
-						Travel Site
+					<a href="#" class="btn btn-lg btn-info" role="button">
+						/ Travel Site /
 					</a>
 				</div>
 				<div class="col-md-2 ">
-					<a href="#" class="btn btn-warning" role="button">
-					 	Travel
+					<a href="#" class="btn btn-info" role="button">
+					 	/ Travel /
 					</a>
 				</div>
-				<div class="col-md-2 ">Contact</div>
-				<div class="col-md-2 ">About</div>
-				<div class="col-md-3 ">Icons</div>	
+				<div class="col-md-2 ">
+					<a href="#" class="btn btn-info" role="button">
+						/ Contact /
+					</a>	
+				</div>
+				<div class="col-md-2 ">
+					<a href="#" class="btn btn-info" role="button">
+						/ About /
+				</a>
 			</div>
-		<div class="container">
-			<div id="line" class="row">
-				 <div class="col-md-12 "></div>	
-			</div>
-		</div>		
+				<div class="col-md-3 ">
+					<ul id="icon" class="list-inline social-icon">
+
+					  <li><a href="#" class="icon-facebook" rel="tooltip" title="" data-placement="top" data-original-title="Facebook"><i class="fa fa-3x fa-facebook-square text-info"></i></a></li>	
+
+		              <li><a href="#" class="icon-youtube" rel="tooltip" title="" data-placement="top" data-original-title="Google-plus"><i class="fa fa-3x  fa-google-plus-square text-danger"></i></a></li>
+
+		               <li><a href="#" class="icon-twitter" rel="tooltip" title="" data-placement="top" data-original-title="Twitter"><i class="fa fa-3x fa-twitter-square text-info"></i></a></li>
+
+		              
+		              <li><a href="#" class="icon-pinterest" rel="tooltip" title="" data-placement="top" data-original-title="Pinterest"><i class="fa fa-3x fa-pinterest-square text-danger"></i></a></li>
+            </ul>	
+				</div>	
+			</div>	
 		</div>	
 		<!-- end:header -->	
 
-		<!-- begin:filters -->
+		<!-- begin:Filters -->
 		 <div class="container filters">
 			<div class="row">
-				<div class="col-md-1 link">Sleap</div>
-				<div class="col-md-1 link">Eat</div>
-				<div class="col-md-1 link">Act</div>
-			</div>		 
+				<!-- tabs -->
+				<div class="col-md-1 link">
+					<a href="#sleep" class="btn btn-warning active" role="tab" data-toggle="tab">
+						/ Sleep
+					</a>
+				</div>
+				<div class="col-md-1 link">
+					<a href="#eat" class="btn btn-warning" role="tab" data-toggle="tab">
+						/ Eat
+					</a>
+				</div>
+				<div class="col-md-1 link">
+					<a href="#act" class="btn btn-warning" role="tab" data-toggle="tab">
+						/ Act
+					</a>
+				</div>
+				<!--end:tabs -->
+			</div>
+
 			<div class="row">	 
 				 <div class="col-md-12">
-				 	<br>
-				 	<br>
-				 	<p>Filters</p>
-				 	<br>
-				 	<br>
+				 	<!-- Tab panes -->
+					<div class="tab-content">
+					 	<div role="tabpanel" class="tab-pane fade active in" id="sleep" aria-labelledby="sleep-tab">
+					 		<br>
+					 		<br>
+					 		sleep filters
+					 		<br>
+					 		<br>
+					 		<br>
+					 	</div>
+	  					<div role="tabpanel" class="tab-pane fade" id="eat" aria-labelledby="eat-tab">
+	  						<br>
+					 		<br>
+					 		eat filters
+					 		<br>
+					 		<br>
+					 		<br>
+	  					</div>
+	  					<div role="tabpanel" class="tab-pane fade" id="act" aria-labelledby="act-tab">
+	  						<br>
+					 		<br>
+					 		act filters
+					 		<br>
+					 		<br>
+					 		<br>
+	  					</div>
+	  				</div>	
+	  				<!-- end:Tab panes -->
 				 </div>
 			</div>	 	
 		</div>	
-		<!-- end:filters -->
+		<!-- end:Filters -->
 
 		<!-- begin:photos -->
 		<div class="container content">
@@ -94,14 +151,11 @@
 					 	<img src="http://lorempixel.com/100/50/" class="img-thumbnail">
 					 	<img src="http://lorempixel.com/100/50/" class="img-thumbnail">
 				 	</div>
-
-
-
-
 				 </div>
 			</div>	 	
 		 </div>	
 		<!-- end:photos -->
+
     </body>
 
 </html>
