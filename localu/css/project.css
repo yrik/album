@@ -1669,14 +1669,6 @@ input[type="color"]:focus,
 #mune{
 	width:auto;
 }
-#mainblock{
-	padding-top: 55px;
-	padding-bottom: 55px;
-	width: 43%;
-	border: 2px solid;
-	margin-left: 100px;
-	margin-top: 75px;
-}
 
 #main-page{
 	background-image: url("../img/landing4.jpg");
