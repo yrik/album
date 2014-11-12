@@ -27,18 +27,21 @@ body{
 
 .map-holder{
 	background: white;
-	margin: 10px 0px;
+	margin: 20px 0px;
 	height: 100%;
-	border: 2px black solid;
+	
 }     
 
 #map{
-	height: 30%;
+	height: 300px;
+	padding: 0;
 	
 	display: block;
 } 
-#box{
+.box{
 	height: 30%;
     border: 2px black solid;
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-left: 89px;
+    margin-right: 89px;
 }
