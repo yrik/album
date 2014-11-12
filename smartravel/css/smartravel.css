@@ -28,4 +28,17 @@ body{
 .map-holder{
 	background: white;
 	margin: 10px 0px;
-}      
+	height: 100%;
+	border: 2px black solid;
+}     
+
+#map{
+	height: 30%;
+	
+	display: block;
+} 
+#box{
+	height: 30%;
+    border: 2px black solid;
+    margin: 20px auto;
+}
