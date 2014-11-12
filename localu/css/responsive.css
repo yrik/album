@@ -310,24 +310,4 @@
 	}
 }
 
-@media screen and (max-width: 767px){
 
-	#mainblock{
-		width: 70%;
-		border: 2px solid;
-		margin-left: 0px;
-		margin-top: 75px;
-	}
-}
-
-@media screen and (max-width: 970px){
-
-	#mainblock{
-		padding-top: 55px;
-		padding-bottom: 55px;
-		width: 70%;
-		border: 2px solid;
-		margin-left: 100px;
-		margin-top: 75px;
-	}
-}

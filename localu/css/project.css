@@ -1670,8 +1670,19 @@ input[type="color"]:focus,
 	width:auto;
 }
 
+#mainblock{
+	border: 2px solid;
+	margin-top: 85px;
+}
+
 #main-page{
-	background-image: url("../img/landing4.jpg");
+	background-image: url("../img/06.jpg");
+	background-position: center center;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;    
+	 
+	  background-size: cover;
+	  
 }
 
 .logo-small{
