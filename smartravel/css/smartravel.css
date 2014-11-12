@@ -25,7 +25,7 @@ body{
         padding: 0px
       }
 
-#map-holder{
+.map-holder{
 	background: white;
 	margin: 10px 0px;
 }      
