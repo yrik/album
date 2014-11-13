@@ -7,6 +7,10 @@
 		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 		<link href="./css/smartravel.css" rel="stylesheet">
 
+    <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHrILKp8Rl_qayY4PJFvT9QfmDRizDz2k">
     </script>
@@ -132,23 +136,25 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-md-1 link">
-					<a href="#" class=" btn btn-warning" role="button">
+					<a href="./smartravel_map.html" class=" btn btn-warning" role="button">
 						/ Map
 					</a>
 				</div>
 				<div class="col-md-1 link">
-					<a href="#" class=" btn btn-warning active" role="button">
+					<a href="./smartravel.html" class=" btn btn-warning active" role="button">
 						/ Photo
 					</a>
 				</div>
-			</div>		 
+			</div>		
+
 				<div class="row"> 
 				 <div id="map" class="col-md-12">
-				 	<div class="map-holder">
+				 	<div class="block-holder">
 				 		<div id="map-canvas"></div>
 				 	</div>	
 				 </div>
 			 	</div>
+
 		 </div>	
 		<!-- end:photos -->
 
