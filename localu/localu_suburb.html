@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+
+  <html ng-app="localu" lang="en" class="csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!--
+    <link rel="shortcut icon" href="./img/favicon.png">
+    -->
+
+    <title>Suburb profile</title>
+
+   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:700,400italic' rel='stylesheet' type='text/css'> 
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <link href="./css/styles1.css" rel="stylesheet" type="text/css">
+    <link href="./css/project.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="./js/jquery.js"></script>
+
+  <body>
+
+    <!-- begin:navbar -->
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+      <div class="upper-container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-top">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+              <h2>Localu</h2>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-top">
+          <ul class="nav navbar-nav navbar-right">
+            
+  <li><a href="/2001/">Local<br>News</a></li>
+  <li class="dropdown">
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Community<br>noticeboard</a>
+    <ul class="dropdown-menu">
+      <li><a href="/notice/categories/2001/">All categories</a></li>
+
+<li><a href="/notice/2001/0/list/">1</a></li>
+
+<li><a href="/notice/2001/qweqwe/list/">qweqwe</a></li>
+
+<li><a href="/notice/2001/asdfsfd/list/">asdfsfd</a></li>
+
+<li><a href="/notice/2001/sdfsdf/list/">sdfsdf</a></li>
+
+<li><a href="/notice/2001/sadfsdf/list/">sadfsdf</a></li>
+
+<li><a href="/notice/2001/jjhhh/list/">jjhhh</a></li>
+
+<li><a href="/notice/2001/jjjh/list/">jjjh</a></li>
+
+<li><a href="/notice/2001/hj8/list/">hj8</a></li>
+
+<li><a href="/notice/2001/jkkjy/list/">jkkjy</a></li>
+
+<li><a href="/notice/2001/kjky/list/">kjky</a></li>
+
+<li><a href="/notice/2001/kyiu/list/">kyiu</a></li>
+
+<li><a href="/notice/2001/khhu/list/">khhu</a></li>
+
+
+    </ul>
+  </li>
+
+            
+              <li><a href="/what-is-localu/">What is<br>Localu?</a></li>
+              <li><a href="/auth/">Join</a></li>
+              <li>
+                <a href="/auth/">Login</a>
+              </li>
+              <li><a href="/contact/">Contact</a></li>
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- end:navbar -->
+
+    
+    <!-- begin:header -->
+    <section id="header" class="heading" style="background: url(./img/img05.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="top-text col-md-8 col-md-offset-2">
+                    <div class="title-desc">
+                      <h2>SYDNEY</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- end:header -->
+    
+
+    
+    <!-- begin:content -->
+    <section id="content">
+      <div class="container">
+        
+
+        
+<div class="content-row row">
+  <p align="center">What’s happening in your neighbourhood?  Add your news <a href="/article-create/2001/">here</a></p>
+  <br>
+  <div class="adv col-md-2">
+  </div>
+  <div ng-controller="NewsController" ng-init="lat='-33.794883';lng='151.268071';query='SYDNEY NSW';initData();" id="container-post" class="masonry col-md-10">
+    <!-- begin:article -->
+    <div class="article-block">
+      <div class="post-container">
+        <div class="post-content">
+          <div class="heading-title heading-small">
+            <h2>Weather today:</h2>
+          </div>
+          <div id="weather" ng-controller="WeatherController" ng-init="lat='-33.794883';lng='151.268071';initData();">
+            <div ng-if="loaded">LOADING WEATHER...</div>
+            
+            <div ng-if="weather.deegre">
+              <img class="weather-img" fallback-src="http://google.com/favicon.ico" ng-src="[[weather.img]]">
+              now: [[weather.deegre]]°C<br>
+              min today: [[weather.min_deegre]]°C
+            </div>                                                                          
+          </div>                                                                          
+        </div>                                                                          
+      </div>
+    </div>
+    <!-- break -->
+                                                                       
+                                                                             
+    <div ng-if="loaded != true" class="post-content">LOADING Google News...</div>
+
+    <div ng-repeat="article in articles" class="article-block">
+      <div class="post-container">
+        <div ng-if="loaded" class="post-content">
+          <div class="heading-title heading-small">
+            <h2><a href="[[article.url | decodeurl ]]">[[article.title | htmlToPlaintext]]</a></h2>
+          </div>
+          <div class="post-meta">
+            <span>Added on [[article.publishedDate | limitTo: 16]]</span>
+          </div>
+          <p class="truncate">[[article.content | htmlToPlaintext]]</p>
+          <div ng-if="article.image.url" style="background: white;max-height: 200px;max-width: 200px;">
+              <img class="img-rounded"  src="[[ article.image.url|decodeurl ]]">
+          </div>
+          <p><b>Author</b>: google news</p>                                          
+          <a target="_blank" class="btn btn-primary" href="[[article.url | decodeurl ]]">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="widget-footer bordered">                                           
+  
+                                             
+</div>
+
+
+
+      </div>
+    </section>
+    <!-- end:content -->
+    
+
+
+    <!-- begin:copyright -->
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-8 copy-left">
+
+            
+            <ul id="footer-links" class="list-inline footer-links">
+                <li>
+                    © 2014 Localu
+                </li>
+
+                <li>
+                    <a href="/help">Help</a>
+                </li>
+                <li>
+                    <a href="/terms">Terms of service</a>
+                </li>
+                <li>
+                    <a href="/privacy">Privacy policy</a>
+                </li>
+            </ul>
+            
+          </div>
+
+
+          <div class="col-md-4 col-sm-4 copy-right">
+            <ul id="icon" class="list-inline social-icon">
+              <li><a href="https://twitter.com/localunews" class="icon-twitter" rel="tooltip" title="" data-placement="top" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/localunews" class="icon-facebook" rel="tooltip" title="" data-placement="top" data-original-title="Facebook"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="#" class="icon-youtube" rel="tooltip" title="" data-placement="top" data-original-title="Youtube"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="http://instagram.com/localunews" class="icon-instagram" rel="tooltip" title="" data-placement="top" data-original-title="Instagram"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end:copyrigt -->
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular-route.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/localu.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/gmap3.min.js"></script>
+    <script src="./js/jquery.isotope.min.js"></script>
+    <script src="./js/jquery.easing.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".dateinput").datepicker({});
+      //$.fn.select2.defaults.allowClear = true;
+    })
+    </script>
+    
+<script>
+</script>
+
+  
+</body></html>
